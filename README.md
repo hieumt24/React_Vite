@@ -1,35 +1,87 @@
 # React Ultimate Starter Template
-Template này được sử dụng cho series React Ultimate (Vite) của tác giả Hỏi Dân IT (Eric)
 
-### Môi trường chạy dự án: Node.js v20.14.0
-https://nodejs.org/download/release/v20.14.0/
+This template is used for the React Ultimate series (Vite).
 
-## Về tác giả
-Mọi thông tin về Tác giả Hỏi Dân IT, các bạn có thể tìm kiếm tại đây:
+## Prerequisites
 
-Website chính thức: https://hoidanit.vn/
+- **Node.js**: v20.14.0  
+  [Download Node.js v20.14.0](https://nodejs.org/)
 
-Youtube “Hỏi Dân IT” : https://www.youtube.com/@hoidanit
+## Installation Steps (Development Mode)
 
-Tiktok “Hỏi Dân IT” :  https://www.tiktok.com/@hoidanit
+1. **Clone the code repository:**
 
-Fanpage “Hỏi Dân IT” : https://www.facebook.com/askITwithERIC/
+   ```bash
+   git clone <repository-url>
+   cd <project-folder>
+   ```
 
-Udemy Hỏi Dân IT: https://www.udemy.com/user/eric-7039/
+2. **Install dependencies:**
 
-===
+   ```bash
+   npm install
+   ```
 
-Các bước cài đặt: (chế độ development)
-1. clone code
-2. cài đặt thư viện: npm i
-3. Update file .env.development (nếu cần thiết)
-4. Chạy dự án: npm run dev
+3. **Update the `.env.development` file (if necessary):**
 
-===
+   Adjust environment variables as needed.
 
-Cách chạy tại chế độ production:
-1. clone code
-2. cài đặt thư viện: npm i
-3. Update file .env.production (nếu cần thiết)
-4. Build dự án: npm run build
-5. Chạy dự án: npm run preview
+4. **Run the project in development mode:**
+
+   ```bash
+   npm run dev
+   ```
+
+## Running in Production Mode
+
+1. **Clone the code repository:**
+
+   ```bash
+   git clone <repository-url>
+   cd <project-folder>
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Update the `.env.production` file (if necessary):**
+
+   Adjust environment variables as needed.
+
+4. **Build the project:**
+
+   ```bash
+   npm run build
+   ```
+
+5. **Run the project in production mode:**
+
+   ```bash
+   npm run preview
+   ```
+
+## Project Structure
+
+The template follows a structure suitable for scalable React projects:
+
+- **src/**: Main source code
+  - **components/**: Reusable components
+  - **pages/**: Route-based pages
+  - **assets/**: Static files like images and styles
+  - **hooks/**: Custom React hooks
+  - **utils/**: Utility functions and helpers
+
+## Environment Variables
+
+This template uses `.env` files for environment-specific variables:
+
+- **.env.development**: For development settings
+- **.env.production**: For production settings
+
+## Additional Notes
+
+- This template uses **Vite** as the build tool.
+- Make sure Node.js v20.14.0 is installed to avoid compatibility issues.
